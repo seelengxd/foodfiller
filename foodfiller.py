@@ -35,17 +35,6 @@ breaks = [('9:00am', '12:30pm'), ('9:30am', '1:30pm'), ('9:30am', '12:30pm'), ('
 
 def formfiller(pickup, order):
     xpaths = {
-    'name':'/html/body/div/div[7]/div/main/div/div/div[1]/div[1]/div/div/div/input',
-    'level':'/html/body/div/div[7]/div/main/div/div/div[1]/div[2]/div[2]/div/div/div/div/div',
-    'class':'/html/body/div/div[7]/div/main/div/div/div[1]/div[3]/div[2]/div/div/div/div/div',
-    'collectionMethod':'/html/body/div/div[7]/div/main/div/div/div[1]/div[4]/div[2]/div/div/div/div/div',
-    'mobile':'/html/body/div/div[7]/div/main/div/div/div[1]/div[5]/div[2]/div/div/input',
-    'date':'/html/body/div/div[7]/div/main/div/div/div[1]/div[6]/div/div/div/div/div/div/input',
-    'payment':'/html/body/div/div[7]/div/main/div/div/div[1]/div[9]/div[3]/div/div/div/div/div',
-    'break':'/html/body/div/div[7]/div/main/div/div/div[1]/div[7]/div[2]/div/div/div/div/div',
-    'stall':'/html/body/div/div[7]/div/main/div/div/div[1]/div[8]/div[2]/div/div/div/div/div'
-    }
-    xpaths = {
         'name': '/html/body/div[1]/div[6]/div/main/div/div/div[1]/div[1]/div/div/div/input',
         'level': '/html/body/div[1]/div[6]/div/main/div/div/div[1]/div[2]/div[2]/div/div/div/div/div',
         'class': '/html/body/div[1]/div[6]/div/main/div/div/div[1]/div[3]/div[2]/div/div/div/div/div',
