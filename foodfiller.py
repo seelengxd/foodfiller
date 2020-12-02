@@ -26,7 +26,7 @@ mydata = {
     'level':'sh2',
     'class':'19SH07',
     'collectionMethod':'Self-Collection',
-    'mobile':'your class',
+    'mobile':'12345678',
     'date':tomorrow.strftime('%d %B %Y'),
 
 }
